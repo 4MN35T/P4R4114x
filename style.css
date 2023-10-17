@@ -1,0 +1,76 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+}
+  
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+  
+.pimg1{
+    background-image:url("https://imgs.search.brave.com/PA0b_l2vxJfbuoj4XsI9RAaebM0E9RyPJCZi-H9ETnM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/eWFua29kZXNpZ24u/Y29tL2ltYWdlcy9k/ZXNpZ25fbmV3cy8y/MDIxLzEwL2RyYWZ0/LWxhbWJvL2xhbWJv/cmdoaW5pX3hlbm9f/MS01MTB4MzQwLmpw/Zw");
+    min-height:100%;
+}
+  
+.pimg2{
+    background-image:url("https://imgs.search.brave.com/KwOUh5no8ibozXcADXbyqHHk8wOAVOKaANeYLw2jpOM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzI2LzFk/LzVlLzI2MWQ1ZWMz/OWI0NWE3NDcwMTU0/MzRlNTFjYjdhZWMz/LmpwZw");
+    min-height:400px;
+}
+  
+.pimg3{
+    background-image:url("https://imgs.search.brave.com/r-VaHhxHANG2aRQOTsz3P7OzIhhfcB3K7ob3iNUFEuA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/c3VwZXJjYXJzLm5l/dC9ibG9nL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDE2LzAxL2Nj/eC0xNC5qcGc");
+    min-height:400px;
+}
+.pimg4{
+    background-image:url("https://imgs.search.brave.com/170clbJb2I30cipuYW25fMzBNNs6A7jMgSkOr_ittNU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzQzLzY1/L2QyLzQzNjVkMmYy/NDlkZTRlYjVmZDhh/N2RlYjM2NTk3Y2I3/LmpwZw");
+    min-height:400px;
+}
+.pimg5{
+    background-image:url("https://imgs.search.brave.com/kfT5gn0CJYj828Up3gkOj9JCZek-HybGwmyX8iNWdBM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4x/Lm1lY3VtLmNvbS9h/dWN0aW9ucy9mbDAx/MjMvZmwwMTIzLTUz/OTc0MC9pbWFnZXMv/MS0xNjY2OTgzMTk5/Mjg3LmpwZz8xNjc0/MjI1OTQwMDAw");
+    min-height:400px;
+}
+  
+.section{
+    text-align:center;
+    padding:50px 80px;
+}
+  
+.section-dark{
+    background-color:#282e34;
+    color:#ddd;
+}
+  
+.ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    font-size:27px;
+    letter-spacing:5px;
+    word-spacing: 10px;
+    text-transform:uppercase;
+}
+  
+.ptext .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+}
+  
+.ptext .border.trans{
+    background-color:transparent;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
